@@ -12,7 +12,7 @@ from aiogram.types import Message, ReplyKeyboardMarkup, KeyboardButton
 
 logging.basicConfig(level=logging.INFO)
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("9191711938:AAHEG7g6oDL4kCJwJDy31ID_hObr-S2vsCI")
 if not BOT_TOKEN:
     raise ValueError("Не задана переменная окружения BOT_TOKEN!")
 
